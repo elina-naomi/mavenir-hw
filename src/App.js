@@ -36,6 +36,7 @@ const App = () => {
         delete newUsers[activeUser.id];
         setUsers(newUsers);
         setActiveUser('');
+        setMode('');
         handleClose();
     }
 
