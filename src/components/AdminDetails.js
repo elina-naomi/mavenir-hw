@@ -4,7 +4,7 @@ import styles from '../css-modules/admindetails.module.css'
 import {AiFillEye, AiFillEyeInvisible, BsPersonSquare} from "react-icons/all";
 import {generator} from "../constants/passwordGenerator";
 
-const defaultRole = 'administrator';
+const defaultRole = 'Administrator';
 
 const AdminDetails = ({activeUser, mode, counter, addEditUser, setActiveUser}) => {
         const [firstName, setFirstName] = useState('');
@@ -309,10 +309,10 @@ const AdminDetails = ({activeUser, mode, counter, addEditUser, setActiveUser}) =
                                         onChange={e => {
                                             setRole(e.target.value);
                                         }}>
-                                    <option value="administrator">Administrator</option>
-                                    <option value="readonly">Readonly</option>
-                                    <option value="services">Services</option>
-                                    <option value="provisioning">Provisioning</option>
+                                    <option value="Administrator">Administrator</option>
+                                    <option value="Readonly">Readonly</option>
+                                    <option value="Services">Services</option>
+                                    <option value="Provisioning">Provisioning</option>
                                 </select>
                             </div> : null
                         }
