@@ -1,0 +1,1 @@
+export const generator = require('generate-password');

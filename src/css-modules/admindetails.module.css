@@ -1,0 +1,57 @@
+.label {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.tip {
+    color: red;
+
+}
+
+.input {
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 300px;
+    padding: 0.2em 0.5em;
+    outline: 0;
+}
+
+.input:focus, .inputWrapperFocused {
+    border: 2px solid #2d2d2d !important;
+}
+
+.innerInput {
+    width: calc(250px);
+    outline: 0;
+    border: 0;
+}
+
+.bottomText {
+    color: #c4c4c4;
+    font-size: 0.8em;
+}
+
+.intro {
+    font-size: 1.3em;
+    font-weight: 600;
+    position: absolute;
+    top: calc(50% - 1.3em / 2);
+}
+
+.detailsWrapper {
+    position: relative;
+    height: calc(100vh - 1.3em);
+}
+
+.iconButton {
+    cursor: pointer;
+}
+
+.inputWrapper {
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 300px;
+    padding: 0.2em 0.5em;
+    outline: 0;
+}
+
